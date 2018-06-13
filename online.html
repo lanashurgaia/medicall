@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ონლაინ ჩაწერა</title>
+	<!--bootstrap-->
+	<link rel="stylesheet" href="bootstrap-4.1.1/dist/css/bootstrap.min.css">
+
+	<!--font-awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<!-- for datetime input -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
+
+	<!--fonts-->
+	<link rel="stylesheet" href="css/fonts.css">
+	
+	<!--reset.css-->
+	<link rel="stylesheet" href="css/reset.css">
+
+	<!--my css-->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<header>
+		<!-- menu -->
+		<nav class="navbar navbar-expand-lg container navbar-light">
+			<h1 class="logo">
+		  		<a class="navbar-brand" href="#">
+			  		<img src="images/logo.png" alt="">
+					<span>medicall - სამედიცინო ქოლცენტრი</span>
+		  		</a>
+			</h1>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    	<ul class="navbar-nav ml-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">აქციები <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">ბონუსები</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">ონლაინ ჩააწერა</a>
+			      </li>
+		    	</ul>
+		  	</div>
+		</nav>
+		<!-- /menu -->
+		<a href="">2500500<span>.GE</span></a>
+	</header>
+
+	<!-- parallax section -->
+	<section class="parallax-window" data-parallax="scroll" data-image-src="images/parallax_img1.jpg">
+		<div class="parallax-content container">
+			<div>
+				<h2>გადაიხადეთ ნაკლები!</h2>
+				<p>ისარგებლეთ ჩვენი აქციებითა დაფასდაკლებებით სხვადასხვა კლინიკებში,<br> სხვადასხვა სამედიცინო სერვისებზე და სერვისების პაკეტებზე.</p>
+			</div>
+		</div>
+	</section>
+	<!-- /parallax section -->
+
+	<!-- section title -->
+	<section class="section-title">
+		<h3>ონლაინ ჩაწერა</h3>
+	</section>
+	<!-- /section title -->
+
+	<!-- online section -->
+	<section class="online container-fluid">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- patient-info -->
+				<div class="col-12 col-md-6 patient-info">
+					<form>
+						<div class="row">
+							<div class="col-2">
+								<i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="form-group col-10">
+								<input type="text" name="mobile" placeholder="შეიყვანეთ თქვენი მობილური ნომერი" class="form-control">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-2">
+								<i class="far fa-address-card"></i>
+							</div>
+							<div class="form-group col-10">
+								<input type="text" name="name" placeholder="მიუთითეთ თქვენი სახელი" class="form-control">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-2">
+								<i class="far fa-calendar-alt"></i>
+							</div>
+							<div class="form-group col-10">
+				                <input type="text" class="form-control datetimepicker-input" id="datetimepicker5" data-toggle="datetimepicker" data-target="#datetimepicker5" placeholder="სასურველი თარიღი">
+				            </div>
+				        </div>
+						<div class="row">
+							<div class="col-2">
+								<i class="far fa-clock"></i>
+							</div>
+							<div class="form-group col-10">
+				                <input type="text" class="form-control datetimepicker-input" id="datetimepicker4" data-toggle="datetimepicker" data-target="#datetimepicker4" placeholder="სასურველი დრო">
+				            </div>
+				        </div>
+					</form>
+				</div>
+				<!-- /patient-info -->
+
+				<!-- patient-comment -->
+				<div class="col-12 col-md-6 patient-comment">
+
+					<!-- tab nav -->
+					<div class="tab-slider--nav">
+						<ul class="tab-slider--tabs">
+							<li class="tab-slider--trigger active" rel="tab1">ექიმთან ჩაწერა</li>
+							<li class="tab-slider--trigger" rel="tab2">აქციაზე ჩაწერა</li>
+						</ul>
+					</div>
+					<!-- /tab nav -->
+
+					<!-- tab container -->
+					<div class="tab-slider--container">
+
+						<!-- tab1 -->
+						<div id="tab1" class="tab-slider--body">
+							<form>
+						  		<textarea name="comment" placeholder="კომენტარი / დამატებითი ინფორმაცია"></textarea>
+						  	</form>
+						</div>
+						<!-- /tab1 -->
+
+						<!-- tab2 -->
+						<div id="tab2" class="tab-slider--body">
+							<div class="search-action">
+								<a href="#">
+									<img src="images/search.png"> 
+									<span>შეარჩიეთ აქცია აქ . . .</span>
+								</a>
+							</div>
+						</div>
+						<!-- /tab2 -->
+
+						<form>
+						  	<input type="submit" name="book" value="ვიზიტის დაჯავშნა">
+						</form>
+
+					</div>
+					<!-- /tab container -->
+				</div>
+				<!-- /patient-comment -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</section>
+	<!-- /online section -->
+
+
+
+
+	<!-- copyright section -->
+	<footer class="container-fluid">
+		<div class="row">
+			<p class="col-12 col-md-6">ყველა უფლება დაცულია © შპს მედიქოლი</p>
+			<p class="col-12 col-md-6">
+				<a href="#" target="_blank">
+					<img src="images/webhouse-logo.png" width="30" alt="webhouse">Web House Studio
+				</a>
+			</p>
+		</div>
+	</footer>
+	<!-- /copyright section -->
+
+	<!--jquery-->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<!-- parallax -->
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$('.parallax-window').parallax({imageSrc: 'images/parallax_img1.jpg'});
+	</script>
+	<!--bootstrap-->
+	<script src="bootstrap-4.1.1/dist/js/bootstrap.min.js"></script>
+
+	<!-- for datetime input -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
+	<script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+    <script type="text/javascript">
+	    $(function () {
+	        $('#datetimepicker5').datetimepicker({
+	            format: 'DD-MM-YYYY',
+	            locale : 'ka'
+	        });
+	    });
+
+	    $(function () {
+            $('#datetimepicker4').datetimepicker({
+                format: 'HH:mm'
+            });
+        });
+
+	</script>
+	<!--javascript-->
+	<script src="js/main.js"></script>
+</body>
+</html>
